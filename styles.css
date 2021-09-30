@@ -1,0 +1,47 @@
+body{
+    background-image: url(Img/background-image.webp);
+    color:  whitesmoke;
+}
+
+/*Navigation bar*/
+.bar1{
+    background-color: darksalmon;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bar1 a{
+    float: left;
+    display: block;
+    padding: 8px;
+    color: whitesmoke;
+    
+}
+
+.bar1 a:hover{
+    background-color: grey;
+}
+
+#body2{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    font-size: medium;
+}
+
+header{
+    color: whitesmoke;
+    font-family: Lucida Handwriting, cursive;
+    background-color: darksalmon;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: x-large;
+    text-align: center;
+}
