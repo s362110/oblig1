@@ -4,6 +4,26 @@ body{
     font-family: sans-serif;
     font-size: medium;
 }
+/*Navigation bar*/
+.navbar{
+    background-color: darksalmon;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    padding: 8px;
+    color: whitesmoke;
+    
+}
+
+.navbar a:hover{
+    background-color: grey;
+}
 
 h1{
     background-color: darksalmon;
